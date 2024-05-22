@@ -4,13 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "../../app/utils/cn";
 
-export const GlowingStarsBackgroundCard = ({
-  className,
-  children,
-}: {
-  className?: string;
-  children?: React.ReactNode;
-}) => {
+export const GlowingStarsBackgroundCard = ({ className, children }) => {
   const [mouseEnter, setMouseEnter] = useState(false);
 
   return (
@@ -34,13 +28,7 @@ export const GlowingStarsBackgroundCard = ({
   );
 };
 
-export const GlowingStarsDescription = ({
-  className,
-  children,
-}: {
-  className?: string;
-  children?: React.ReactNode;
-}) => {
+export const GlowingStarsDescription = ({ className, children }) => {
   return (
     <p className={cn(" text-AEBlack-200 text-AE-Text-sm ", className)}>
       {children}
@@ -48,13 +36,7 @@ export const GlowingStarsDescription = ({
   );
 };
 
-export const GlowingStarsTitle = ({
-  className,
-  children,
-}: {
-  className?: string;
-  children?: React.ReactNode;
-}) => {
+export const GlowingStarsTitle = ({ className, children }) => {
   return (
     <h2
       className={cn(
@@ -67,13 +49,13 @@ export const GlowingStarsTitle = ({
   );
 };
 
-export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
+export const Illustration = ({ mouseEnter }) => {
   const stars = 108;
   const columns = 18;
 
-  const [glowingStars, setGlowingStars] = useState<number[]>([]);
+  const [glowingStars, setGlowingStars] = useState([]);
 
-  const highlightedStars = useRef<number[]>([]);
+  const highlightedStars = useRef([]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -119,7 +101,7 @@ export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
   );
 };
 
-const Star = ({ isGlowing, delay }: { isGlowing: boolean; delay: number }) => {
+const Star = ({ isGlowing, delay }) => {
   return (
     <motion.div
       key={delay}
@@ -140,7 +122,7 @@ const Star = ({ isGlowing, delay }: { isGlowing: boolean; delay: number }) => {
   );
 };
 
-const Glow = ({ delay }: { delay: number }) => {
+const Glow = ({ delay }) => {
   return (
     <motion.div
       initial={{

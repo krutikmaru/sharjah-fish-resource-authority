@@ -14,8 +14,6 @@ import { useLocale } from "next-intl";
 
 export const FloatingNav = ({ navItems, className }) => {
   const locale = useLocale();
-  console.log();
-  console.log(locale);
   const { scrollYProgress } = useScroll();
 
   const [theme, setTheme] = useDarkMode();

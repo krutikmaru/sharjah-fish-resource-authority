@@ -1,5 +1,5 @@
 import React from "react";
-import { CardBody, CardContainer } from "../../components/ui/3d-card";
+import { CardBody, CardContainer } from "../ui/3d-card";
 import { Meteors } from "../../components/ui/meteors";
 
 function DevelopmentGoals({ developmentGoalsTranslations }) {

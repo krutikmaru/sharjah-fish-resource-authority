@@ -9,24 +9,24 @@ export default function LocalSwitcher() {
   const router = useRouter();
   const localActive = useLocale();
 
-  const onSelectChange = (e) => {
-    const nextLocale = e.target.value;
+  const handleClick = (newLocale) => {
+    const nextLocale = newLocale;
     startTransition(() => {
       router.replace(`/${nextLocale}`);
     });
   };
   return (
-    <label className="">
-      <p className="sr-only">change language</p>
-      <select
-        defaultValue={localActive}
-        className="bg-transparent text-AEBlack-950 dark:text-AEBlack-50"
-        onChange={onSelectChange}
-        disabled={isPending}
+    <>
+      <div
+        className=" bg-AEGold-500 border-2 border-AEGold-600 px-3 py-2 rounded-lg cursor-pointer"
+        onClick={() => {
+          if (!isPending) {
+            handleClick(localActive === "en" ? "ar" : "en");
+          }
+        }}
       >
-        <option value="en">English</option>
-        <option value="ar">Arabic</option>
-      </select>
-    </label>
+        {localActive}
+      </div>
+    </>
   );
 }

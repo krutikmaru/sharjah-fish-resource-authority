@@ -1,0 +1,252 @@
+{
+  "Layout": {
+    "Navigation": {
+      "Links": {
+        "About": "About",
+        "Goals": "Goals",
+        "Partnerships": "Partnerships"
+      }
+    },
+    "Footer": {
+      "Title": "Sharjah Fish Resource Authority",
+      "Address": {
+        "Title": "Address",
+        "Value": "Sharjah, United Arab Emirates, United Arab Emirates"
+      },
+      "Contact": {
+        "Title": "Contact",
+        "Phone": "(06) 511 5555",
+        "Mail": "info@fra.shj.ae"
+      },
+      "Links": {
+        "About": "About",
+        "Goals": "Goals",
+        "Partnerships": "Partnerships"
+      },
+      "Copyright": "All rights reserved - Fish Resource Authority.",
+      "PrivacyPolicy": "Privacy Policy",
+      "TermsOfService": "Terms of Service"
+    }
+  },
+  "Home": {
+    "Hero": {
+      "Title": "Sharjah Fish Resource Authority",
+      "Description": "To develop fisheries, empower fishermen, and enhance partnerships to achieve sustainable food security and economic growth."
+    },
+    "VisionMission": {
+      "Card1": {
+        "Title": "Our Vision",
+        "Description": "Leading in the fields of fisheries locally."
+      },
+      "Card2": {
+        "Title": "Our Mission",
+        "Description": "To develop fisheries, empower fishermen, and enhance partnerships to achieve sustainable food security and economic growth."
+      }
+    },
+    "Values": {
+      "Value1": {
+        "title": "Responsibility",
+        "description": "We recognize our individual responsibilities and competencies and fulfill our assigned tasks with high quality and efficiency."
+      },
+      "Value2": {
+        "title": "Transparency",
+        "description": "Conducting business with clarity, honesty, and openness."
+      },
+      "Value3": {
+        "title": "Creativity & Innovation",
+        "description": "Encouraging and fostering creative thinking and innovation in daily work, strategies, and continuous improvement of processes, requiring forward-thinking."
+      },
+      "Value4": {
+        "title": "Quality & Excellence",
+        "description": "Achieving tangible results that contribute to improved performance and effective achievement of goals."
+      },
+      "Value5": {
+        "title": "Teamwork",
+        "description": "Interaction and collaboration among team members to achieve common goals and enhance collective performance to overcome challenges and achieve success."
+      }
+    }
+  },
+  "About": {
+    "Management": {
+      "Title": "His Excellency Ali Ahmed Ali Abu Ghazeen",
+      "Subtitle": "Senior Management of the Sharjah Fish Resource Authority",
+      "Description": "Member of the Executive Council, Chairman of the Sharjah Fish Resource Authority Authority. His responsibilities include developing and implementing local strategies and plans aimed at enhancing food and water security for the Emirate of Sharjah and preserving and sustaining the marine environment.",
+      "ActionButtonText": "Know what we do"
+    },
+    "Specializations": {
+      "Title": "About",
+      "Subtitle": "Sharjah Fish Resource Authority specializations",
+      "specialization1": {
+        "Title": "Policy Development",
+        "Description": "Develop general policies and strategic plans for the authority in the emirate and present them to the Executive Council for appropriate decision."
+      },
+      "specialization2": {
+        "Title": "Legislation Proposals",
+        "Description": "Propose necessary legislation and regulations related to the Authority’s work and present them to the Executive Council for appropriate decisions."
+      },
+      "specialization3": {
+        "Title": "Association Oversight",
+        "Description": "Oversee fishermen's associations and monitor fishing activities in the emirate."
+      },
+      "specialization4": {
+        "Title": "Fisheries Development",
+        "Description": "Work on developing fisheries in collaboration with fishermen's associations and relevant authorities."
+      },
+      "specialization5": {
+        "Title": "Issue Research & Solutions",
+        "Description": "Research, study, and propose solutions to any issues related to fisheries."
+      },
+      "specialization6": {
+        "Title": "Awareness Campaigns",
+        "Description": "Raise awareness of the importance of preserving fisheries through available means and coordinate with relevant authorities in all matters related to fisheries."
+      },
+      "specialization7": {
+        "Title": "Contract Management",
+        "Description": "Enter into contracts, agreements, and memorandums of understanding and partnerships after approval by the Executive Council."
+      },
+      "specialization8": {
+        "Title": "Support & Collaboration",
+        "Description": "Seek administrative and technical support from specialized entities, and consult experts and specialists in all matters related to its work, and collaborate with other entities in matters falling within its objectives and specializations."
+      },
+      "specialization9": {
+        "Title": "Emirate Representation",
+        "Description": "Represent the emirate in all local, regional, and international conferences and meetings."
+      },
+      "specialization10": {
+        "Title": "Maritime Participation",
+        "Description": "Participate in all maritime activities and festivals within and outside the emirate."
+      },
+      "specialization11": {
+        "Title": "Other Specializations",
+        "Description": "Undertake any other specializations assigned by the ruler or the Executive Council."
+      },
+      "Contact": {
+        "Title": "Still have questions?",
+        "Description": "Reach out for personalized assistance to know more.",
+        "ActionButtonText": "Contact"
+      }
+    }
+  },
+  "Partnerships": {
+    "Partner1": {
+      "Title": "Khorfakkan University",
+      "Description": "Khorfakkan University is a university located in the Emirate of Sharjah, United Arab Emirates."
+    },
+    "Partner2": {
+      "Title": "Maritime Transport Academy",
+      "Description": "The Maritime Transport Academy is an educational institution located in the Emirate of Sharjah, United Arab Emirates."
+    },
+    "Partner3": {
+      "Title": "Bee'ah",
+      "Description": "Bee'ah is a waste management company headquartered in the Emirate of Sharjah, United Arab Emirates."
+    },
+    "Partner4": {
+      "Title": "American University of Sharjah",
+      "Description": "The American University of Sharjah is a university located in the Emirate of Sharjah, United Arab Emirates."
+    },
+    "Partner5": {
+      "Title": "Fishermen Associations",
+      "Description": "Fishermen Associations are governmental organizations representing the interests of fishermen in the Emirate of Sharjah, United Arab Emirates."
+    },
+    "Partner6": {
+      "Title": "Aquarium",
+      "Description": "The Aquarium is a governmental institution located in the Emirate of Sharjah, United Arab Emirates."
+    },
+    "Partner7": {
+      "Title": "Evergreen",
+      "Description": "Evergreen is a private company operating in the Emirate of Sharjah, United Arab Emirates."
+    },
+    "Partner8": {
+      "Title": "Fujairah Research Center",
+      "Description": "The Fujairah Research Center is a governmental research institution located in the Emirate of Fujairah, United Arab Emirates."
+    },
+    "Partner9": {
+      "Title": "Omega Fish Farms",
+      "Description": "Omega Fish Farms is a private company specializing in fish farming located in the Emirate of Sharjah, United Arab Emirates."
+    },
+    "Partner10": {
+      "Title": "Fish Farm",
+      "Description": "Fish Farm is a private facility engaged in fish farming located in the Emirate of Sharjah, United Arab Emirates."
+    },
+    "Partner11": {
+      "Title": "AquaBridge",
+      "Description": "AquaBridge is a private company involved in aquatic infrastructure projects located in the Emirate of Sharjah, United Arab Emirates."
+    },
+    "Partner12": {
+      "Title": "Abu Dhabi Environment Authority",
+      "Description": "The Abu Dhabi Environment Authority is a governmental agency responsible for environmental conservation located in Abu Dhabi, United Arab Emirates."
+    },
+    "Partner13": {
+      "Title": "SeaWorld Research Center",
+      "Description": "The SeaWorld Research Center is a governmental research institution dedicated to marine research located in the Emirate of Sharjah, United Arab Emirates."
+    },
+    "Partner14": {
+      "Title": "Climate Change and Environment Authority",
+      "Description": "The Climate Change and Environment Authority is a federal agency responsible for environmental policy and regulation in the United Arab Emirates."
+    }
+  },
+  "Goals": {
+    "Strategic": {
+      "Title": "Strategic Goals",
+      "Subtitle": "Sharjah Fish Resource Authority (2024-2028)",
+      "Description": "The Strategic Goals of the Sharjah Fish Resource Authority (2024-2028) aim to foster sustainable fisheries, empower fishermen with modern techniques, and create robust industry infrastructure. The Authority will optimize systems, innovate environments, and harness human talent, striving for self-sufficiency through sustainable resource management and marine preservation, ensuring food security for the emirate.",
+      "Goal1": {
+        "Title": "Sustainable Fisheries",
+        "Description": "Achieve sustainable development of fisheries and strategic partnerships, and empower fishermen with modern techniques according to best practices and distinguished services, contributing to the creation of a supportive infrastructure for leadership in fisheries in the emirate"
+      },
+      "Goal2": {
+        "Title": "Process Optimization",
+        "Description": "Improve internal systems, processes, and technical procedures according to best practices and monitor and control their quality and efficiency."
+      },
+      "Goal3": {
+        "Title": "Innovative Environments",
+        "Description": "Create innovative and high-quality environments, utilizing resources and investing in human talents and competencies"
+      },
+      "Goal4": {
+        "Title": "Human Resource Development",
+        "Description": "Employ and enhance the capabilities of human resources and work teams."
+      },
+      "Goal5": {
+        "Title": "Process Strengthening",
+        "Description": "Strengthen and develop internal processes."
+      },
+      "Goal6": {
+        "Title": "Financial Efficiency",
+        "Description": "Sustain financial resources, manage assets, and enhance financial efficiency and effectiveness."
+      },
+      "Goal7": {
+        "Title": "Self-Sufficiency",
+        "Description": "Achieve the Authority’s self-sufficiency by utilizing and investing in fisheries resources and preserving the marine environment to provide sustainable food security in the emirate."
+      }
+    },
+    "Development": {
+      "Title": "Sustainable Development Goals",
+      "Subtitle": "Sharjah Fish Resource Authority (2024-2028)",
+      "Description": "In line with UAE Vision 2021, the Sharjah Fish Resource Authority, in collaboration with federal and local specialized entities, works to achieve goals 3, 4, 8, 9, 14, and 17 of the Sustainable Development Goals by implementing several projects aimed at preserving marine ecosystems and natural resources and ensuring their sustainability",
+      "Goal3": {
+        "Title": "Goal Three",
+        "Description": "Good Health and Well-being."
+      },
+      "Goal4": {
+        "Title": "Goal Four",
+        "Description": "Quality Education."
+      },
+      "Goal8": {
+        "Title": "Goal Eight",
+        "Description": "Decent Work and Economic Growth."
+      },
+      "Goal9": {
+        "Title": "Goal Nine",
+        "Description": "Industry, Innovation, and Infrastructure."
+      },
+      "Goal14": {
+        "Title": "Goal Fourteen",
+        "Description": "Life Below Water."
+      },
+      "Goal17": {
+        "Title": "Goal Seventeen",
+        "Description": "Partnerships for the Goals."
+      }
+    }
+  }
+}

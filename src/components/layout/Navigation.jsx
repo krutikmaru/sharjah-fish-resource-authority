@@ -4,7 +4,6 @@ import { FloatingNav } from "../ui/floating-navbar";
 import useDarkMode from "../../app/utils/hooks/useDarkMode";
 import LocalSwitcher from "../global/locale-switcher";
 import { AnimatePresence, motion } from "framer-motion";
-import { damp } from "three/src/math/MathUtils";
 import Image from "next/image";
 import Link from "next/link";
 import { useLocale } from "next-intl";

@@ -42,9 +42,6 @@ export default function RootLayout({ children, params: { locale } }) {
   return (
     <html lang={locale} className="overflow-x-hidden">
       <body className={inter.className + " relative"}>
-        <div className="fixed top-5 left-5 z-[100]">
-          <LocalSwitcher />
-        </div>
         <div className="bg-white dark:bg-black  dark:bg-dot-white/[0.2] bg-dot-black/[0.5] w-screen min-h-screen">
           <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
           <Navigation navigationTranslations={navigationTranslations} />

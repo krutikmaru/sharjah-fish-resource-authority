@@ -18,7 +18,7 @@ export default function LocalSwitcher() {
   return (
     <>
       <div
-        className=" bg-AEGold-500 border-2 border-AEGold-600 px-3 py-2 rounded-lg cursor-pointer"
+        className=" text-AEGold-600 dark:text-AEGold-500 font-medium cursor-pointer"
         onClick={() => {
           if (!isPending) {
             handleClick(localActive === "en" ? "ar" : "en");

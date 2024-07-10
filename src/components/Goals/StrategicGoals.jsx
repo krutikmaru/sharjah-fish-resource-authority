@@ -7,7 +7,7 @@ function StrategicGoals({ strategicGoalsTranslations }) {
       <div className="container flex flex-col items-start">
         <div className="mb-12 grid grid-cols-1 items-start justify-between gap-5 md:mb-18 md:grid-cols-2 md:gap-x-12 md:gap-y-8 lg:mb-20 lg:gap-x-20">
           <div>
-            <p className="mb-3 font-semibold md:mb-4 text-AEGold-500 text-AE-Text-base">
+            <p className="mb-3 font-semibold md:mb-4 text-orange text-AE-Text-base">
               {strategicGoalsTranslations.subtitle}
             </p>
             <h2 className="text-AE-Text-H2 font-bold md:text-AE-Text-H1 lg:text-AE-Text-Display text-AEBlack-950 tracking-tighter dark:text-AEBlack-50">
@@ -18,9 +18,9 @@ function StrategicGoals({ strategicGoalsTranslations }) {
             {strategicGoalsTranslations.description}
           </p>
         </div>
-        <div className="w-full h-96  mb-12 md:mb-18 lg:mb-20 rounded-lg relative">
+        <div className="w-full h-96  mb-12 md:mb-18 lg:mb-20 rounded-lg relative ">
           <Image
-            src="/images/home-1.jpg"
+            src="/images/patterns-fill-color-5.jpg"
             alt="Goals Display Image"
             layout="fill"
             objectFit="cover"
@@ -38,12 +38,12 @@ function StrategicGoals({ strategicGoalsTranslations }) {
                     height="40"
                     fill="#000000"
                     viewBox="0 0 256 256"
-                    className="fill-AEGold-500"
+                    className="fill-orange"
                   >
                     <path d={goal.svgPath}></path>
                   </svg>
                 </div>
-                <h3 className="mb-5 text-AE-Text-2xl font-bold md:mb-6 md:text-AE-Text-3xl md:leading-[1.3] lg:text-AE-Text-H3 tracking-tighter text-AEBlack-900 dark:text-AEBlack-100">
+                <h3 className="mb-5 text-AE-Text-2xl font-bold md:mb-6 md:text-AE-Text-3xl md:leading-[1.3] lg:text-AE-Text-H3 tracking-tighter text-blue-navy dark:text-blue-yonder">
                   {goal.title}
                 </h3>
                 <p className="text-AEBlack-900 dark:text-AEBlack-100">

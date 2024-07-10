@@ -2,6 +2,9 @@ import React from "react";
 import { Meteors } from "../../../components/ui/meteors";
 import { CardBody, CardContainer } from "../../../components/ui/3d-card";
 import { useTranslations } from "next-intl";
+import PatternOutlines11 from "../../../components/ui/svg/outlines/pattern-outlines-11";
+import PatternOutlines2 from "../../../components/ui/svg/outlines/pattern-outlines-2";
+import PatternOutlines3 from "../../../components/ui/svg/outlines/pattern-outlines-3";
 
 function Partnerships() {
   const partnerships = useTranslations("Partnerships");
@@ -94,7 +97,12 @@ function Partnerships() {
   ];
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-14 md:gap-y-28  py-28">
+    <div className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-14 md:gap-y-28  py-28">
+      <PatternOutlines3 className="top-20 left-0 opacity-70" />
+      <PatternOutlines2 className="top-20 right-0 opacity-70" />
+      <PatternOutlines11 className="top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-50" />
+      <PatternOutlines3 className="-bottom-20 left-0 opacity-70" />
+      <PatternOutlines2 className="-bottom-20 right-0 opacity-70" />
       {partners.map((partner) => {
         return (
           <CardContainer
@@ -118,8 +126,8 @@ function Partnerships() {
 function MeteorCard({ number, collaboration, entities }) {
   return (
     <div className=" w-full h-full mx-auto  relative max-w-xs flex justify-center items-center">
-      <div className="absolute inset-0  h-full w-full bg-gradient-to-r from-AEGold-200 to-AEGold-500 transform scale-[0.80] rounded-full blur-3xl" />
-      <div className="relative shadow-xl bg-AEGold-500 border border-AEGold-600 w-full  px-4 py-8 h-full overflow-hidden rounded-lg flex flex-col justify-end items-start">
+      <div className="absolute inset-0  h-full w-full bg-gradient-to-r from-light-blue to-blue-yonder transform scale-[0.80] rounded-full blur-3xl" />
+      <div className="relative shadow-xl bg-blue-yonder border-2 border-orange w-full  px-4 py-8 h-full overflow-hidden rounded-lg flex flex-col justify-end items-start">
         <div className="w-10 h-10 rounded-full border-2 flex items-center justify-center mb-4 border-AEBlack-100 p-2 text-AE-Text-2xl font-semibold">
           {number}
         </div>

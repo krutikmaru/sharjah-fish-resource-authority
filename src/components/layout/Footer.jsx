@@ -24,12 +24,12 @@ function Footer({ footerTranslations }) {
             </div>
             <div className="mb-6 md:mb-8">
               <div>
-                <p className="mb-5 md:mb-6 text-AE-Text-base font-semibold text-center lg:text-left text-AEGold-500">
+                <p className="mb-5 md:mb-6 text-AE-Text-base font-semibold text-center lg:text-left text-orange">
                   {footerTranslations.title}
                 </p>
               </div>
               <div className="text-center lg:text-left">
-                <p className="mb-1 text-AE-Text-sm font-semibold  text-AEBlack-950 dark:text-AEBlack-50">
+                <p className="mb-1 text-AE-Text-sm font-semibold  text-AEBlack-950 dark:text-blue-yonder">
                   {footerTranslations.address.title}:
                 </p>
                 <p className="mb-5 text-AE-Text-sm md:mb-6 text-AEBlack-900 dark:text-AEBlack-100">
@@ -37,7 +37,7 @@ function Footer({ footerTranslations }) {
                 </p>
               </div>
               <div className="text-center lg:text-left">
-                <p className="mb-1 text-AE-Text-sm font-semibold text-AEBlack-950 dark:text-AEBlack-50">
+                <p className="mb-1 text-AE-Text-sm font-semibold text-AEBlack-950 dark:text-blue-yonder">
                   {footerTranslations.contact.title}:
                 </p>
                 <p className="flex flex-col text-sm underline decoration-black underline-offset-1 md:mb-6">

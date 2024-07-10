@@ -1,6 +1,8 @@
 "use client";
 
 import Image from "next/image";
+import PatternOutlines2 from "../ui/svg/outlines/pattern-outlines-2";
+import PatternOutlines3 from "../ui/svg/outlines/pattern-outlines-3";
 
 function Management({ managmentTranslations }) {
   const handleScroll = () => {
@@ -11,11 +13,13 @@ function Management({ managmentTranslations }) {
   };
 
   return (
-    <section className="px-[5%] pt-16 md:pt-24 lg:pt-28 flex justify-center items-center">
-      <div className="container">
+    <section className="relative px-[5%] pt-16 md:pt-24 lg:pt-28 flex justify-center items-center">
+      <PatternOutlines3 className="top-20 left-0 opacity-50 dark:opacity-20" />
+      <PatternOutlines2 className="bottom-0 right-0 opacity-50 dark:opacity-30" />
+      <div className="container z-10">
         <div className="grid grid-cols-1 gap-y-12 md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
           <div>
-            <p className="mb-3 font-semibold md:mb-4 text-AEGold-500 text-AE-Text-base">
+            <p className="mb-3 font-semibold md:mb-4 text-blue-navy dark:text-blue-yonder text-AE-Text-base">
               {managmentTranslations.subtitle}
             </p>
             <h2 className="text-AE-Text-H3 mb-4 font-bold md:text-AE-Text-H2 lg:text-AE-Text-H1 text-AEBlack-950 tracking-tighter dark:text-AEBlack-50">
@@ -27,7 +31,7 @@ function Management({ managmentTranslations }) {
             <div className="mt-6 flex items-center gap-x-4 md:mt-8">
               <button
                 onClick={handleScroll}
-                className="bg-AEGold-500 text-white px-6 py-3 rounded-md hover:bg-AEGold-400 transition-colors ease-in-out"
+                className="bg-orange text-white dark:text-fra-black font-medium px-6 py-3 rounded-md  transition-colors ease-in-out"
               >
                 {managmentTranslations.actionButtonText}
               </button>

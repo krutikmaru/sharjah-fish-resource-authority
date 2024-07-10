@@ -9,11 +9,11 @@ const Specializations = ({ specializationTranslations }) => {
   return (
     <section
       id="about"
-      className="px-[5%] pb-16 flex justify-center items-center"
+      className="relative px-[5%] pb-16 flex justify-center items-center"
     >
       <div className="container w-full ">
         <div className="mb-12 md:mb-18 lg:mb-20 text-left md:text-center">
-          <h3 className="text-AE-Text-H4 mb-4 font-bold md:text-AE-Text-H3 lg:text-AE-Text-H1 tracking-tighter text-AEBlack-950 dark:text-AEBlack-50">
+          <h3 className="text-AE-Text-H4 mb-4 font-bold md:text-AE-Text-H3 lg:text-AE-Text-H1 tracking-tighter text-fra-black dark:text-AEBlack-50">
             {specializationTranslations.title}
           </h3>
 
@@ -25,7 +25,7 @@ const Specializations = ({ specializationTranslations }) => {
           {specializations.map((specialization) => {
             return (
               <div key={specialization.title}>
-                <h3 className="mb-5 text-AE-Text-2xl font-bold md:mb-6 md:text-AE-Text-3xl md:leading-[1.3] lg:text-AE-Text-H3 tracking-tighter text-AEBlack-900 dark:text-AEBlack-100">
+                <h3 className="mb-5 text-AE-Text-2xl font-bold md:mb-6 md:text-AE-Text-3xl md:leading-[1.3] lg:text-AE-Text-H3 tracking-tighter text-blue-navy dark:text-blue-yonder">
                   {specialization.title}
                 </h3>
                 <p className="AE-Text-base text-AEBlack-900 dark:text-AEBlack-100">

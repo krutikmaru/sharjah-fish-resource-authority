@@ -31,7 +31,14 @@ export default function FloatingNavDemo({ navigationTranslations }) {
     <>
       <div className="w-full h-16 px-12 bg-AEBlack-50/20 dark:bg-AEBlack-950/20 backdrop-blur-md border-b-[1px] border-b-AEBlack-300 dark:border-b-AEBlack-800 fixed z-50 flex items-center justify-between">
         <div className="flex items-center space-x-4">
-          <Image src="/images/logo.png" alt="FRA Logo" height={32} width={32} />
+          <Link href="/">
+            <Image
+              src="/images/logo.png"
+              alt="FRA Logo"
+              height={32}
+              width={32}
+            />
+          </Link>
 
           <button onClick={toggleMenuState}>
             {isMenuActive ? (
@@ -158,12 +165,14 @@ const FloatingMenu = ({ isMenuActive, toggleMenuState, navItems }) => {
                   <path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path>
                 </svg>
               </button>
-              <Image
-                src="/images/logo.png"
-                alt="FRA Logo"
-                height={40}
-                width={40}
-              />
+              <Link href={"/"}>
+                <Image
+                  src="/images/logo.png"
+                  alt="FRA Logo"
+                  height={40}
+                  width={40}
+                />
+              </Link>
             </div>
             <div className="mt-10  h-full">
               {navItems.map((navItem, idx) => (
@@ -172,11 +181,11 @@ const FloatingMenu = ({ isMenuActive, toggleMenuState, navItems }) => {
                   href={`/${locale}` + navItem.link}
                   locale={"ar"}
                   className={
-                    "relative dark:text-neutral-50 items-center flex space-x-1 text-AEBlack-800 hover:text-AEGold-500 dark:hover:text-AEGold-500"
+                    "relative dark:text-neutral-50 items-center flex space-x-1 text-AEBlack-800 hover:text-orange dark:hover:text-orange transition-colors ease-in-out duration-300"
                   }
                 >
                   {/* <span className="block sm:hidden">{navItem.icon}</span> */}
-                  <span className="text-xs sm:text-4xl tracking-tight">
+                  <span className="text-xs sm:text-4xl font-semibold tracking-tight">
                     {navItem.name}
                   </span>
                 </Link>

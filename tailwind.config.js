@@ -38,6 +38,12 @@ const config = {
         "AE-Text-xs": ["0.75rem", "1rem"],
       },
       colors: {
+        "light-blue": "#E9F8FA",
+        orange: "#E97A3B",
+        "blue-yonder": "#487C9F",
+        "blue-navy": "#0B314A",
+        "fra-black": "#181818",
+
         "AEGold-50": "#f9f7ed",
         "AEGold-100": "#f2eccf",
         "AEGold-200": "#e6d7a2",

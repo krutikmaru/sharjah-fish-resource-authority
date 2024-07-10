@@ -3,6 +3,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "../../app/utils/cn";
+import PatternOutlines2 from "./svg/outlines/pattern-outlines-2";
 
 export const GlowingStarsBackgroundCard = ({ className, children }) => {
   const [mouseEnter, setMouseEnter] = useState(false);
@@ -16,10 +17,12 @@ export const GlowingStarsBackgroundCard = ({ className, children }) => {
         setMouseEnter(false);
       }}
       className={cn(
-        "bg-[linear-gradient(110deg,#333_0.6%,#222)] dark:bg-[linear-gradient(110deg,#333_0.6%,#222)] p-4 max-w-md min-h-[21rem] w-full rounded-xl border border-[#eaeaea] dark:border-neutral-600",
+        "bg-white relative overflow-hidden dark:bg-fra-black p-4 max-w-md min-h-[21rem] w-full rounded-xl border border-neutral-400 dark:border-neutral-600",
         className
       )}
     >
+      <PatternOutlines2 className="-bottom-20 left-1/2 -translate-x-1/2 opacity-60 dark:opacity-20 w-[250px]" />
+
       <div className="flex justify-center items-center">
         <Illustration mouseEnter={mouseEnter} />
       </div>
@@ -30,7 +33,7 @@ export const GlowingStarsBackgroundCard = ({ className, children }) => {
 
 export const GlowingStarsDescription = ({ className, children }) => {
   return (
-    <p className={cn(" text-AEBlack-200 text-AE-Text-sm ", className)}>
+    <p className="text-fra-black dark:text-neutral-200 text-AE-Text-sm font-medium dark:font-normal tracking-wide">
       {children}
     </p>
   );
@@ -40,7 +43,7 @@ export const GlowingStarsTitle = ({ className, children }) => {
   return (
     <h2
       className={cn(
-        "font-bold text-AE-Text-Display text-AEGold-400 mb-1",
+        "font-semibold text-AE-Text-Display text-blue-navy dark:text-blue-yonder mb-1",
         className
       )}
     >
@@ -139,7 +142,7 @@ const Glow = ({ delay }) => {
       exit={{
         opacity: 0,
       }}
-      className="absolute  left-1/2 -translate-x-1/2 z-10 h-[4px] w-[4px] rounded-full bg-AEGold-500 blur-[1px] shadow-2xl shadow-AEGold-400"
+      className="absolute  left-1/2 -translate-x-1/2 z-10 h-[4px] w-[4px] rounded-full bg-orange blur-[1px] shadow-2xl "
     />
   );
 };

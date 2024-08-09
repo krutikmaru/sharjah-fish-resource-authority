@@ -6,18 +6,20 @@ function Hero2() {
   return (
     <div className="w-screen h-screen flex flex-row justify-center items-center overflow-hidden relative ">
       <div className="absolute bottom-0 left-0 w-full h-44 z-20 bg-gradient-to-b from-transparent to-white dark:to-[#181818]" />
-      <div className="w-[35%] h-full flex justify-center flex-col space-y-4 items-center px-10">
-        <div className="w-40 md:w-60 h-40 md:h-60 relative overflow-visible">
-          <Image
-            src="/images/logo.png"
-            className="absolute object-cover top-0 left-0"
-            fill
-            alt="Logo"
-          />
+      <div className="relative w-[25%] md:w-[35%] h-full flex justify-center flex-col items-center px-10 ">
+        <div className="absolute left-12 z-20 md:relative flex justify-center flex-col space-y-4 items-center  ">
+          <div className="w-40 md:w-60 h-40 md:h-60 relative overflow-visible">
+            <Image
+              src="/images/logo.png"
+              className="absolute object-cover top-0 left-0"
+              fill
+              alt="Logo"
+            />
+          </div>
+          <h1 className="text-fra-black dark:text-white font-semibold tracking-tighter text-3xl md:text-5xl text-center">
+            Sharjah Fish Resource Authority
+          </h1>
         </div>
-        <h1 className="text-fra-black dark:text-white font-semibold tracking-tighter text-3xl md:text-5xl text-center">
-          Sharjah Fish Resource Authority
-        </h1>
       </div>
       <ImageSlider />
     </div>
@@ -52,7 +54,7 @@ const ImageSlider = () => {
     };
   };
   return (
-    <div className="w-[65%] h-full relative overflow-visible">
+    <div className="w-[100%] md:w-[65%] h-full relative overflow-visible">
       {images.map((image, index) => (
         <div
           key={index}

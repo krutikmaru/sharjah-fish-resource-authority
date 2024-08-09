@@ -1,4 +1,5 @@
-import Hero from "../../components/Home/Hero";
+// import Hero from "../../components/Home/Hero";
+import Hero2 from "../../components/Home/Hero2";
 import Values from "../../components/Home/Values";
 import VisionMission from "../../components/Home/VisionMission";
 import { useTranslations } from "next-intl";
@@ -53,7 +54,8 @@ export default function Home() {
 
   return (
     <div>
-      <Hero heroTranslations={heroTranslations} />
+      {/* <Hero heroTranslations={heroTranslations} /> */}
+      <Hero2 />
       <VisionMission visionMissionTranslations={visionMissionTranslations} />
       <Values valuesTranslations={valuesTranslations} />
     </div>

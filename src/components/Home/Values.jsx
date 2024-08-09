@@ -1,11 +1,11 @@
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
-import PatternOutlines11 from "../ui/svg/outlines/pattern-outlines-11";
+// import PatternOutlines11 from "../ui/svg/outlines/pattern-outlines-11";
 
 const Values = ({ valuesTranslations }) => {
   return (
     <section className="flex px-[5%] py-12 md:py-16 lg:py-20 0 justify-center relative">
-      <PatternOutlines11 className="top-0 left-0 opacity-20" />
+      {/* <PatternOutlines11 className="top-0 left-0 opacity-20" /> */}
 
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 md:items-start md:gap-x-12 lg:gap-x-20 relative">
@@ -15,19 +15,19 @@ const Values = ({ valuesTranslations }) => {
                 <div className="mb-3 md:mb-4 flex space-x-4 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
+                    width="44"
+                    height="44"
                     fill="#000000"
                     viewBox="0 0 256 256"
                     className="fill-orange"
                   >
                     <path d={value.svgPath}></path>
                   </svg>
-                  <h1 className="text-AE-Text-xl font-bold md:text-AE-Text-2xl text-blue-navy dark:text-blue-yonder">
+                  <h1 className="text-AE-Text-xl font-bold md:text-AE-Text-H4 text-blue-navy dark:text-blue-yonder">
                     {value.title}
                   </h1>
                 </div>
-                <p className="pl-12 text-AE-Text-base text-AEBlack-950 dark:text-AEBlack-300">
+                <p className="pl-12 text-AE-Text-lg text-AEBlack-950 dark:text-AEBlack-300">
                   {value.description}
                 </p>
               </div>

@@ -1,12 +1,12 @@
 import React from "react";
 import { CardBody, CardContainer } from "../ui/3d-card";
 import { Meteors } from "../../components/ui/meteors";
-import PatternOutlines11 from "../ui/svg/outlines/pattern-outlines-11";
+// import PatternOutlines11 from "../ui/svg/outlines/pattern-outlines-11";
 
 function DevelopmentGoals({ developmentGoalsTranslations }) {
   return (
     <section className="relative px-[5%] py-16 flex justify-center items-center">
-      <PatternOutlines11 className="-bottom-64 left-1/2 -translate-x-1/2 opacity-50" />
+      {/* <PatternOutlines11 className="-bottom-64 left-1/2 -translate-x-1/2 opacity-50" /> */}
       <div className="container ">
         <div className="mx-auto mb-12 w-full max-w-4xl text-left md:text-center md:mb-18 lg:mb-20 ">
           <p className="mb-3 font-semibold md:mb-4 text-orange text-AE-Text-base">

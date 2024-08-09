@@ -98,11 +98,11 @@ function Partnerships() {
 
   return (
     <div className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-14 md:gap-y-28  py-28">
-      <PatternOutlines3 className="top-20 left-0 opacity-70" />
+      {/* <PatternOutlines3 className="top-20 left-0 opacity-70" />
       <PatternOutlines2 className="top-20 right-0 opacity-70" />
       <PatternOutlines11 className="top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-50" />
       <PatternOutlines3 className="-bottom-20 left-0 opacity-70" />
-      <PatternOutlines2 className="-bottom-20 right-0 opacity-70" />
+      <PatternOutlines2 className="-bottom-20 right-0 opacity-70" /> */}
       {partners.map((partner) => {
         return (
           <CardContainer

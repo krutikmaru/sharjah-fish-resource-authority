@@ -41,7 +41,7 @@ export default function RootLayout({ children, params: { locale } }) {
   };
   return (
     <html lang={locale} className="overflow-x-hidden">
-      <body className={inter.className + " relative"}>
+      <body className={inter.className + " relative max-w-[1900px]"}>
         <div className="bg-white dark:bg-fra-black  dark:bg-dot-white/[0.1] bg-dot-black/[0.5] w-screen min-h-screen">
           <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_60%,black)]"></div>
           <Navigation navigationTranslations={navigationTranslations} />

@@ -21,7 +21,7 @@ export const GlowingStarsBackgroundCard = ({ className, children }) => {
         className
       )}
     >
-      <PatternOutlines2 className="-bottom-20 left-1/2 -translate-x-1/2 opacity-60 dark:opacity-20 w-[250px]" />
+      {/* <PatternOutlines2 className="-bottom-20 left-1/2 -translate-x-1/2 opacity-60 dark:opacity-20 w-[250px]" /> */}
 
       <div className="flex justify-center items-center">
         <Illustration mouseEnter={mouseEnter} />

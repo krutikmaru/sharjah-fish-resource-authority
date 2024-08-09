@@ -68,7 +68,7 @@ export default function FloatingNavDemo({ navigationTranslations }) {
         </div>
         <div className="flex justify-center items-center space-x-4">
           <ThemeToggle />
-          <LocalSwitcher />
+          {/* <LocalSwitcher /> */}
         </div>
       </div>
       <FloatingMenu
@@ -193,7 +193,7 @@ const FloatingMenu = ({ isMenuActive, toggleMenuState, navItems }) => {
             </div>
             <div className="flex justify-end mb-10 items-center space-x-4">
               <ThemeToggle />
-              <LocalSwitcher />
+              {/* <LocalSwitcher /> */}
             </div>
           </motion.div>
         </motion.div>

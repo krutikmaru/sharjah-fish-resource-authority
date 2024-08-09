@@ -147,9 +147,9 @@ function Footer({ footerTranslations }) {
                 {footerTranslations.termsOfService}
               </Link>
             </li>
-            <li>
+            {/* <li>
               <LocalSwitcher />
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

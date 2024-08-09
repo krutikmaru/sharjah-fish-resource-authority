@@ -1,6 +1,9 @@
 // import Hero from "../../components/Home/Hero";
 import Hero2 from "../../components/Home/Hero2";
 import Values from "../../components/Home/Values";
+import About from "../../components/Home/About";
+import DirectorMessage from "../../components/Home/MessageDirector";
+import NewsMedia from "../../components/Home/NewsMedia";
 import VisionMission from "../../components/Home/VisionMission";
 import { useTranslations } from "next-intl";
 
@@ -56,8 +59,11 @@ export default function Home() {
     <div>
       {/* <Hero heroTranslations={heroTranslations} /> */}
       <Hero2 />
+      <About />
+      <DirectorMessage />
       <VisionMission visionMissionTranslations={visionMissionTranslations} />
       <Values valuesTranslations={valuesTranslations} />
+      <NewsMedia />
     </div>
   );
 }

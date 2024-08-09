@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
-
+import ViewAllButton from "../News-and-Media/ViewAllButton";
 function About() {
   return (
     <div className="text-blue-navy dark:text-blue-yonder px-20 flex flex-col space-y-4">
       <div className="flex items-center justify-between">
         <h1 className="text-5xl font-bold tracking-tighter">News And Media</h1>
-        <button className="text-lg font-medium">View All</button>
+        <ViewAllButton />
       </div>
       <p className="text-xl text-black dark:text-white">
         Stay updated with the latest from the Sharjah Fisheries Authority. Our
@@ -27,7 +27,7 @@ function About() {
 
 export default About;
 
-function NewsCard() {
+export function NewsCard() {
   return (
     <div className="w-full min-h-[400px] rounded-md bg-neutral-200/20 backdrop-blur-sm flex flex-col justify-between p-3">
       <div className="flex flex-col space-y-4 h-full">

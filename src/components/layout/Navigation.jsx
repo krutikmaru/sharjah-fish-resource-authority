@@ -25,6 +25,14 @@ export default function FloatingNavDemo({ navigationTranslations }) {
       name: navigationTranslations.partnerships,
       link: "/partnerships",
     },
+    {
+      name: navigationTranslations.newsAndMedia,
+      link: "/news-and-media",
+    },
+    {
+      name: navigationTranslations.events,
+      link: "/events",
+    },
   ];
 
   return (

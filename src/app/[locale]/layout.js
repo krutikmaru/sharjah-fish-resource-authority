@@ -18,6 +18,8 @@ export default function RootLayout({ children, params: { locale } }) {
     about: layout("Navigation.Links.About"),
     goals: layout("Navigation.Links.Goals"),
     partnerships: layout("Navigation.Links.Partnerships"),
+    newsAndMedia: layout("Navigation.Links.newsAndMedia"),
+    events: layout("Navigation.Links.events"),
   };
   const footerTranslations = {
     title: layout("Footer.Title"),

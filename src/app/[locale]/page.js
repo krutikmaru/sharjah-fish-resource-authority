@@ -4,6 +4,8 @@ import Values from "../../components/Home/Values";
 import About from "../../components/Home/About";
 import DirectorMessage from "../../components/Home/MessageDirector";
 import NewsMedia from "../../components/Home/NewsMedia";
+import Events from "../../components/Home/Events";
+import Feedback from "../../components/Home/Feedback";
 import VisionMission from "../../components/Home/VisionMission";
 import { useTranslations } from "next-intl";
 
@@ -64,6 +66,8 @@ export default function Home() {
       <VisionMission visionMissionTranslations={visionMissionTranslations} />
       <Values valuesTranslations={valuesTranslations} />
       <NewsMedia />
+      <Events />
+      <Feedback />
     </div>
   );
 }

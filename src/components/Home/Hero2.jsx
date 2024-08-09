@@ -8,7 +8,7 @@ function Hero2() {
       <div className="absolute bottom-0 left-0 w-full h-44 z-20 bg-gradient-to-b from-transparent to-white dark:to-[#181818]" />
       <div className="relative w-[25%] md:w-[35%] h-full flex justify-center flex-col items-center px-10 ">
         <div className="absolute left-12 z-20 md:relative flex justify-center flex-col space-y-4 items-center  ">
-          <div className="w-40 md:w-60 h-40 md:h-60 relative overflow-visible">
+          <div className="w-32 md:w-40 h-32 md:h-40 relative overflow-visible">
             <Image
               src="/images/logo.png"
               className="absolute object-cover top-0 left-0"

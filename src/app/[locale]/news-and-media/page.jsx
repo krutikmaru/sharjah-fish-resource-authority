@@ -1,10 +1,20 @@
 import React from "react";
 import { NewsCard } from "../../../components/Home/NewsMedia";
+import Image from "next/image";
 
 function Page() {
   return (
     <div className="text-black py-24 px-20">
       <div className="text-blue-navy dark:text-blue-yonder flex flex-col space-y-4">
+        <div className="w-full h-96  mb-12  rounded-lg relative ">
+          <Image
+            src="/images/patterns-fill-color-5.jpg"
+            alt="Goals Display Image"
+            layout="fill"
+            objectFit="cover"
+            className="rounded-lg"
+          />
+        </div>
         <h1 className="text-5xl font-bold tracking-tighter">News And Media</h1>
         <p className="text-xl text-black dark:text-white">
           Stay updated with the latest from the Sharjah Fisheries Authority. Our

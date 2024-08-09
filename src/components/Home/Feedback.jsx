@@ -1,5 +1,16 @@
 import Image from "next/image";
 import React from "react";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+  DialogFooter,
+} from "../ui/dialog";
+import { Label } from "../ui/label";
+import { Input } from "../ui/input";
 
 function Feedback() {
   return (
@@ -11,9 +22,51 @@ function Feedback() {
           <p className="text-xl text-white">
             We would love to have any feedbacks, complaints, or suggestions.
           </p>
-          <button className="bg-AEGold-500  text-white dark:text-fra-black font-medium px-4 py-2 rounded-md text-sm  transition-colors ease-in-out">
-            Contact
-          </button>
+          <Dialog>
+            <DialogTrigger asChild>
+              <button className="bg-AEGold-500  text-white dark:text-fra-black font-medium px-4 py-2 rounded-md text-sm  transition-colors ease-in-out">
+                Contact
+              </button>
+            </DialogTrigger>
+            <DialogContent className="sm:max-w-[425px]">
+              <DialogHeader>
+                <DialogTitle>Your Message</DialogTitle>
+                <DialogDescription>
+                  Please type in your suggestion, complaint or feedback.
+                </DialogDescription>
+              </DialogHeader>
+              <div className="grid gap-4 py-4">
+                <div className="grid grid-cols-4 items-center gap-4">
+                  <Label htmlFor="name" className="text-right">
+                    Name
+                  </Label>
+                  <Input
+                    id="name"
+                    value="Pedro Duarte"
+                    className="col-span-3"
+                  />
+                </div>
+                <div className="grid grid-cols-4 items-center gap-4">
+                  <Label htmlFor="email" className="text-right">
+                    email
+                  </Label>
+                  <Input
+                    id="email"
+                    value="user@example.com"
+                    className="col-span-3"
+                  />
+                </div>
+              </div>
+              <DialogFooter>
+                <button
+                  type="submit"
+                  className="bg-AEGold-500  text-white dark:text-fra-black font-medium px-4 py-2 rounded-md text-sm  transition-colors ease-in-out"
+                >
+                  Send
+                </button>
+              </DialogFooter>
+            </DialogContent>
+          </Dialog>
         </div>
       </div>
     </div>
